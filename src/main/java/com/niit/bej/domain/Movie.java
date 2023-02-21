@@ -15,4 +15,36 @@ public class Movie {
 
     public Movie() {
     }
+
+    public String getMovieName() {
+        return movieName;
+    }
+
+    public void setMovieName(String movieName) {
+        this.movieName = movieName;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    public double getMovieDuration() {
+        return movieDuration;
+    }
+
+    public void setMovieDuration(double movieDuration) {
+        this.movieDuration = movieDuration;
+    }
+
+    public int getYearOfRelease() {
+        return yearOfRelease;
+    }
+
+    public void setYearOfRelease(int yearOfRelease) {
+        this.yearOfRelease = yearOfRelease;
+    }
 }
