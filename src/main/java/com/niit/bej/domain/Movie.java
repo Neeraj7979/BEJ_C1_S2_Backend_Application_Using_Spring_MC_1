@@ -1,5 +1,7 @@
 package com.niit.bej.domain;
 
+import java.util.Objects;
+
 public class Movie {
     private String movieName;
     private String genre;
@@ -56,5 +58,18 @@ public class Movie {
                 ", movieDuration=" + movieDuration +
                 ", yearOfRelease=" + yearOfRelease +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Movie movie = (Movie) o;
+        return Double.compare(movie.movieDuration, movieDuration) == 0 && yearOfRelease == movie.yearOfRelease && Objects.equals(movieName, movie.movieName) && Objects.equals(genre, movie.genre);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(movieName, genre, movieDuration, yearOfRelease);
     }
 }
