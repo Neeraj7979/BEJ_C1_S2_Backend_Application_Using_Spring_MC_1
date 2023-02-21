@@ -13,5 +13,6 @@ public class App {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(ConfigBean.class);
         Movie movie1 = applicationContext.getBean(Movie.class);
         System.out.println(movie1.getMovieName());
+        System.out.println(movie1.getYearOfRelease());
     }
 }
