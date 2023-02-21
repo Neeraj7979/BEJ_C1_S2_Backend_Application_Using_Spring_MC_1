@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9981a42b-7ae8-4604-b90c-f52f2cd35919" name="Changes" comment="Reformatted the class movie" />
+    <list default="true" id="9981a42b-7ae8-4604-b90c-f52f2cd35919" name="Changes" comment="Create Bean in ConfigBean class to getMovieDetails">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/bej/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/bej/App.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +40,26 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.niit.bej.App" />
+      <module name="BEJ_C1_S2_Backend_Application_Using_Spring_MC_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.bej.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -110,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676971789368</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Create class ConfigBean inside bean package.">
+      <created>1676971885516</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676971885516</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Create Bean in ConfigBean class to getMovieDetails">
+      <created>1676972094707</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676972094707</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,7 +170,9 @@
     <MESSAGE value="Created toString method for fields of class Movie in domain package" />
     <MESSAGE value="Created equals method and hash code for fields of class Movie in domain package" />
     <MESSAGE value="Reformatted the class movie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformatted the class movie" />
+    <MESSAGE value="Create class ConfigBean inside bean package." />
+    <MESSAGE value="Create Bean in ConfigBean class to getMovieDetails" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Bean in ConfigBean class to getMovieDetails" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
